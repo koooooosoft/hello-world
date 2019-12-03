@@ -29,7 +29,12 @@ public class ex9_13 {
 	            for(int j=0;j<c;j++)
 	                array[i][j]=input.nextDouble();
 	        Location my=Location.locateLargest(array);
-	        System.out.print("The location of the largest element is "+my.maxValue+" at ("+my.row+"£¬"+my.column+")");
+	        System.out.print("The location of the largest element is "+my.maxValue+" at ("+my.row+"Â£Â¬"+my.column+")");
 	}
 
+}
+class Location{
+	public int row=0;
+	public int column=0;
+	public double maxValue;
 }
